@@ -1,11 +1,14 @@
 .bg-image-header {
+text-align:center;
   background-image: url("../img/sample.jpg");
-  height: 500px;
+  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center center;
 }
-
+.center{
+  text-align:center;
+}
 .container {
  display: flex;
  flex-direction: row;
@@ -14,6 +17,7 @@
  border: solid 1px skyblue;
  margin: 10px;
  flex: 1;
+ margin: 0 auto;
 }
 @media (max-width: 768px) {
  .container {
