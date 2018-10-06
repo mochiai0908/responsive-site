@@ -6,8 +6,25 @@ text-align:center;
   background-size: cover;
   background-position: center center;
 }
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+
+    letter-spacing: .1em;
+
+    color: #4c4c4c;
+    background-color: #F5F5DC;
+}
 .center{
   text-align:center;
+  color: #B23E45; 
+  font-size: 24px;
 }
 .container {
  display: flex;
@@ -16,6 +33,8 @@ text-align:center;
 .box {
  border: solid 1px skyblue;
  margin: 10px;
+ padding: 20px;
+ background-color: #dddddd;
  flex: 1;
  margin: 0 auto;
 }
@@ -35,4 +54,9 @@ text-align:center;
 .radius {
   background-color: #f8e58c;
   border-radius: 10px;
+}
+footer {
+    width: 100%; 
+    height: 200px; 
+    background-color: #E4AE00;
 }
